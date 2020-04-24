@@ -24,3 +24,10 @@ jobs:
 
     - name: Build
       run: make
+
+    - name: Archive
+      uses: actions/upload-artifact@v1
+      with:
+        name: disk-info
+        path: build/disk-info
+
