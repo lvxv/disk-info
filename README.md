@@ -1,9 +1,4 @@
 
-#### DEP
-```
-yum install -y golang
-```
-
 #### BUILD
 `make`
 
